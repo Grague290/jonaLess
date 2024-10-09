@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login con LESS</title>
+
+    <!-- Compilador de LESS en línea, solo para desarrollo -->
+    <link rel="stylesheet/less" type="text/css" href="main.less">
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+
+    <!-- Alternativamente, puedes compilar el archivo LESS a CSS y enlazarlo de la siguiente manera -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+</head>
+<body>
+
+    <div>
+        <h1>Hola mundo</h1>
+
+            <form class="form">
+                <fieldset>
+                    <legend>Formulario de Ingreso</legend>
+                    <fieldset>
+                        <legend>Correo Electronico</legend>
+                        <input type="text" name="email" placeholder="ejemplo@ejemplo" id="email"> 
+                    </fieldset>
+                        
+                    <fieldset>
+                        <legend>Contraseña</legend>
+                        <input type="password" name="password" placeholder="ejemplo" id="password">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Tipo Usuario</legend>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="opcion1" value="1">
+                                    Administrador
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="opcion2" value="2">
+                                    Gerente
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="opcion3" value="3">
+                                    Propietario
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="opcion4" value="4">
+                                    Agente de ventas
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" name="opcion5" value="5">
+                                    Prospecto
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+
+
+
+</body>
+</html>
